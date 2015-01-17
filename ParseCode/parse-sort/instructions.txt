@@ -1,0 +1,35 @@
+The goal of this code exercise is to parse all of the input files then sort and print the combined contents, using 3 different sort orders. 
+
+Each input file has a different format but should be printed the same way. The formats are as follows:
+
+  -- Input Formats --
+comma.txt - comma separated fields
+Last Name, First Name, Gender(Male or Female), Favorite Color, Birthday(M/D/YYYY)
+
+space.txt - space separated fields
+Last Name, First Name, Middle Initial, Gender(M or F), Birthday(M-D-YYYY), Favorite Color
+
+pipe.txt - pipe separated fields
+Last Name, First Name, Middle Initial, Gender(M or F), Favorite Color, Birthday(M-D-YYYY)
+
+The output should be printed in the following format: 
+
+  -- Output Print Format --
+Last Name, First Name, Middle Initial, Gender(M or F), Birthday(MM/DD/YYYY)
+
+.. and sorted in the following orders:
+
+  -- Output Sort Orders --
+By Last Name, A to Z, then First Name, A to Z
+By Gender, women before men, then By First Name, A to Z, then by Last Name, A to Z
+By Age, oldest first, then by First Name, Z to A, then Last Name, Z to A
+
+Included with this exercise is an example output in which the sorting is correct. It is not required that your output look *exactly* like the sample. The order and the format of the data is more important.
+
+Good luck and let us know if you have any questions.
+
+
+
+-could sort into separate arrays and then print
+- could sort into a hash map with the same key if its the same type
+- do multiple cases in if ( delimiter and key value)

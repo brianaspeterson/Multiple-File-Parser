@@ -1,0 +1,51 @@
+ -- Sorted by Last Name --
+
+Abercrombie, Neil,     , M, 2/13/1943
+Bishop,      Timothy,  , M, 4/23/1967
+Bonk,        Radek,   S, M, 6/3/1975
+Bouillon,    Francis, G, M, 6/3/1975
+Hingis,      Martina, M, F, 4/2/1979
+Kelly,       Sue,      , F, 7/12/1959
+Kournikova,  Anna,    F, F, 6/3/1975
+Smith,       Steve,   D, M, 3/3/1985
+Seles,       Monica,  H, F, 12/2/1973
+
+  -- Sorted by Gender --
+
+Kournikova,  Anna,    F, F, 6/3/1975
+Hingis,      Martina, M, F, 4/2/1979
+Seles,       Monica,  H, F, 12/2/1973
+Kelly,       Sue,      , F, 7/12/1959
+
+Bouillon,    Francis, G, M, 6/3/1975
+Abercrombie, Neil,     , M, 2/13/1943
+Bonk,        Radek,   S, M, 6/3/1975
+Smith,       Steve,   D, M, 3/3/1985
+Bishop,      Timothy,  , M, 4/23/1967
+
+  -- Sorted by Age --
+
+Abercrombie, Neil,     , M, 2/13/1943
+Kelly,       Sue,      , F, 7/12/1959
+Bishop,      Timothy,  , M, 4/23/1967
+Seles,       Monica,  H, F, 12/2/1973
+Bonk,        Radek,   S, M, 6/3/1975
+Bouillon,    Francis, G, M, 6/3/1975
+Kournikova,  Anna,    F, F, 6/3/1975
+Hingis,      Martina, M, F, 4/2/1979
+Smith,       Steve,   D, M, 3/3/1985
+
+
+
+
+
+
+if (loadFromClasspath){
+				File dir = new File(absolutePath);
+				fileText = new BufferedReader(new InputStreamReader(file));
+
+				}
+			else {
+				File dir = new File(filePath);
+				fileText = new BufferedReader(new FileReader(file));
+				}
